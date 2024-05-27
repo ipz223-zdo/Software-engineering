@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "removeComments": false,
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "src/js",
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "allowUnreachableCode": true
+  },
+  "include": [
+    "src"
+  ]
+}
+
