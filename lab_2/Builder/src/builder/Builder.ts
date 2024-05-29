@@ -9,13 +9,13 @@ interface Builder {
 }
 
 class Character {
-    height: number = 0;
-    build: string = '';
-    hairColor: string = '';
-    eyeColor: string = '';
-    clothing: string = '';
-    inventory: string[];
-    deeds: string[];
+    height: number | null = null;
+    build: string | null = null;
+    hairColor: string | null = null;
+    eyeColor: string | null = null;
+    clothing: string | null = null;
+    inventory: string[] = [];
+    deeds: string[] = [];
 
     constructor() {
         this.inventory = [];
