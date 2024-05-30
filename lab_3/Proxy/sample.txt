@@ -1,0 +1,5 @@
+Hello, world!
+This is a sample text file.
+It contains some lines of text
+to demonstrate the functionality
+of the SmartTextReader class.
